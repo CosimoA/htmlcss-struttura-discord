@@ -5,3 +5,67 @@
     box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
 }
+
+/* GENERAL STYLE */
+.dashed{
+    border: 1px dashed black;
+}
+
+.general-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.general-cpontainer1{
+    background-color: #add8e6;
+    /* DEBUG */
+    min-height: 500px;
+    padding: 10px 0 5px 0;
+}
+
+.general-margin{
+    margin: 0 auto;
+    width: 60%;
+}
+
+header{
+    display: flex;
+    background-color: #daa520;
+    margin-bottom: 10px;
+    /* DEBUG */
+    min-height: 40px;
+}
+
+.logo{
+    flex-basis: 20%;
+    padding-left: 1%;
+    display: flex;
+    /* DEBUG */
+
+}
+
+.navigation-bar{
+    flex-basis: 60%;
+    justify-content: center;
+}
+
+.login{
+    flex-basis: 20%;
+    padding-right: 1%;
+    justify-content: end;
+}
+
+.header-container-section{
+    background-color: #00008b;
+    justify-content: center;
+    /* DEBUG */
+    min-height: 500px;
+}
+
+.header-section1{
+    background-color: #ee82ee;
+    flex-basis: 50%;
+    /* DEBUG */
+    min-height: 400px;
+}
