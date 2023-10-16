@@ -8,11 +8,11 @@
 
 /* GENERAL STYLE */
 .dashed{
-    border: 2px dashed black;
+    border: 1px dashed black;
 }
 
 .dashed-white{
-    border: 2px dashed white;
+    border: 1px dashed white;
 }
 
 .general-flex{
@@ -24,6 +24,7 @@
     background-color: lightgrey;
 }
 
+/* DEBUG COLORS START */
 .bg-blue{
     background-color: #1e90ff;
 }
@@ -48,6 +49,7 @@
 .bg-verdeacqua{
     background-color: #7fffd4;
 }
+/* DEBUG COLORS FINISH */
 
 .bg-businessblack{
     background-color: #23272a;
@@ -96,17 +98,17 @@ header{
 }
 
 .header-container-section{
-    background-color: #00008b;
     justify-content: center;
     padding: 50px 0;
     /* DEBUG */
+    background-color: #00008b;
     /* min-height: 500px; */
 }
 
 .header-section1{
-    background-color: #ee82ee;
     flex-basis: 50%;
     /* DEBUG */
+    background-color: #ee82ee;
     min-height: 400px;
 }
 
@@ -160,7 +162,7 @@ header{
 
 /* FOOTER */
 footer{
-    border-top: solid 2px white;
+    border-top: solid 1px white;
     padding-top: 30px;
 }
 
