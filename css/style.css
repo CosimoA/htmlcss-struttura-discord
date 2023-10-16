@@ -8,7 +8,11 @@
 
 /* GENERAL STYLE */
 .dashed{
-    border: 1px dashed black;
+    border: 2px dashed black;
+}
+
+.dashed-white{
+    border: 2px dashed white;
 }
 
 .general-flex{
@@ -16,7 +20,44 @@
     align-items: center;
 }
 
+.bg-lightgrey{
+    background-color: lightgrey;
+}
 
+.bg-blue{
+    background-color: #1e90ff;
+}
+
+.bg-pink{
+    background-color: #ffc0cb;
+}
+
+.bg-green{
+    background-color: #228b22;
+}
+
+.bg-darkpink{
+    background-color: #f08080;
+}
+
+.bg-darkverdeacqua{
+    background-color: #20b2aa;
+
+}
+
+.bg-verdeacqua{
+    background-color: #7fffd4;
+}
+
+.bg-businessblack{
+    background-color: #23272a;
+}
+
+section{
+    padding: 50px 0;
+}
+
+/* HEADER STYLE */
 .general-cpontainer1{
     background-color: #add8e6;
     /* DEBUG */
@@ -41,8 +82,6 @@ header{
     flex-basis: 20%;
     padding-left: 1%;
     display: flex;
-    /* DEBUG */
-
 }
 
 .navigation-bar{
@@ -59,8 +98,9 @@ header{
 .header-container-section{
     background-color: #00008b;
     justify-content: center;
+    padding: 50px 0;
     /* DEBUG */
-    min-height: 500px;
+    /* min-height: 500px; */
 }
 
 .header-section1{
@@ -68,4 +108,69 @@ header{
     flex-basis: 50%;
     /* DEBUG */
     min-height: 400px;
+}
+
+/* MAIN STYLE */
+/* Section 1 */
+
+.content-section-main{
+    flex-basis: 60%;
+    /* DEBUG */
+    min-height: 500px;
+}
+
+.img-section-main{
+    flex-basis: 40%;
+    /* DEBUG */
+    min-height: 500px;
+}
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 4 */
+.big-section-main{
+    flex-basis: 100%;
+    /* DEBUG */
+    min-height: 800px;
+}
+
+/* Section 5 ASIDE FOOTER */
+#aside-section{
+    padding: 15px 0 40px;
+}
+
+.social{
+    flex-basis: 40%;
+    /* DEBUG */
+    min-height: 550px;
+}
+
+/* ASIDE LIST-1 */
+.list{
+    flex-basis: 15%;
+    /* DEBUG */
+    min-height: 550px;
+}
+/* ASIDE LIST-2 */
+
+/* ASIDE LIST-3 */
+
+/* ASIDE LIST-4 */
+
+/* FOOTER */
+footer{
+    border-top: solid 2px white;
+    padding-top: 30px;
+}
+
+#footer-section{
+    justify-content: space-between;
+    padding: 0;
+/* DEBUG */
+min-height: 70px;
+}
+
+#footer-section div{
+    padding: 3px;
 }
