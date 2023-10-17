@@ -3,25 +3,35 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
+    font-family:"Whitney", 'Cabin', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* GENERAL STYLE */
+/* GENERAL MACRO STYLE */
+.general-flex{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    padding: 50px 0;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.bg-businessblack{
+    background-color: #23272a;
+}
+
+
+/* DEBUG */
 .dashed{
     border: 1px dashed black;
 }
 
 .dashed-white{
     border: 1px dashed white;
-}
-
-.general-flex{
-    display: flex;
-    align-items: center;
-}
-
-.bg-lightgrey{
-    background-color: lightgrey;
 }
 
 /* DEBUG COLORS START */
@@ -43,7 +53,6 @@
 
 .bg-darkverdeacqua{
     background-color: #20b2aa;
-
 }
 
 .bg-verdeacqua{
@@ -51,32 +60,25 @@
 }
 /* DEBUG COLORS FINISH */
 
-.bg-businessblack{
-    background-color: #23272a;
-}
-
-section{
-    padding: 50px 0;
-}
-
 /* HEADER STYLE */
 .general-cpontainer1{
-    background-color: #add8e6;
-    /* DEBUG */
-    min-height: 500px;
     padding: 10px 0 5px 0;
+    /* DEBUG */
+    background-color: #add8e6;
+    min-height: 500px;
 }
 
 .general-margin{
     margin: 0 auto;
     width: 60%;
+
 }
 
 header{
     display: flex;
-    background-color: #daa520;
     margin-bottom: 10px;
     /* DEBUG */
+    background-color: #daa520;
     min-height: 40px;
 }
 
@@ -114,7 +116,6 @@ header{
 
 /* MAIN STYLE */
 /* Section 1 */
-
 .content-section-main{
     flex-basis: 60%;
     /* DEBUG */
